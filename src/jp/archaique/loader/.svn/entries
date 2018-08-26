@@ -1,0 +1,94 @@
+8
+
+dir
+61
+http://subversion.assembla.com/svn/archaique/trunk/as3/jp/archaique/loader
+http://subversion.assembla.com/svn/archaique
+
+
+
+2009-10-27T06:45:16.370268Z
+55
+chiansaw398
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+ILoader.as
+file
+
+
+
+
+2009-02-04T23:12:58.000000Z
+3cf04d6bbb1fdb221ffba1d673a913a6
+2008-12-11T16:16:07.941279Z
+23
+chiansaw398
+
+ImgLoader.as
+file
+
+
+
+
+2009-02-04T23:12:58.000000Z
+5df00484408ffbbe76c3b6890f613442
+2008-12-11T16:16:07.941279Z
+23
+chiansaw398
+
+ImgLoaderCommend.as
+file
+
+
+
+
+2009-02-04T23:12:58.000000Z
+843d9b619568d8950923ab798a9633e0
+2008-12-11T16:16:07.941279Z
+23
+chiansaw398
+
+XmlLoader.as
+file
+
+
+
+
+2009-02-04T23:12:58.000000Z
+573c21c1965966e79b29fae6a32df915
+2008-12-08T14:25:04.572423Z
+22
+chiansaw398
+
+XmlLoaderCommed.as
+file
+
+
+
+
+2009-02-04T23:12:58.000000Z
+62d2ccbea1dede50e35a7eda14381136
+2008-12-11T16:16:07.941279Z
+23
+chiansaw398
+
+loaderasset
+dir
+
+loadingmanager
+dir
+

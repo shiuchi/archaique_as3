@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/archaique/!svn/ver/60/trunk/as3/jp/archaique/transition
+END
+TransitionGroup.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/archaique/!svn/ver/57/trunk/as3/jp/archaique/transition/TransitionGroup.as
+END
+ITransitionBase.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/archaique/!svn/ver/43/trunk/as3/jp/archaique/transition/ITransitionBase.as
+END
+FireTransition.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/archaique/!svn/ver/60/trunk/as3/jp/archaique/transition/FireTransition.as
+END
+ITransitionGroup.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/archaique/!svn/ver/43/trunk/as3/jp/archaique/transition/ITransitionGroup.as
+END
+McSlider.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/archaique/!svn/ver/4/trunk/as3/jp/archaique/transition/McSlider.as
+END
+Tint.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/Tint.as
+END
+ScaleX.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/ScaleX.as
+END
+Alpha.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/Alpha.as
+END
+AbstractTransition.as
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/archaique/!svn/ver/60/trunk/as3/jp/archaique/transition/AbstractTransition.as
+END
+TransitionState.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/archaique/!svn/ver/43/trunk/as3/jp/archaique/transition/TransitionState.as
+END
+Height.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/archaique/!svn/ver/58/trunk/as3/jp/archaique/transition/Height.as
+END
+ITransition.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/archaique/!svn/ver/60/trunk/as3/jp/archaique/transition/ITransition.as
+END
+ScaleY.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/ScaleY.as
+END
+MaskSlider.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/archaique/!svn/ver/58/trunk/as3/jp/archaique/transition/MaskSlider.as
+END
+Translate.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/Translate.as
+END
+Rotation.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/Rotation.as
+END
+Width.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/archaique/!svn/ver/58/trunk/as3/jp/archaique/transition/Width.as
+END
+Scale.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/Scale.as
+END
+ImgSlider.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/archaique/!svn/ver/56/trunk/as3/jp/archaique/transition/ImgSlider.as
+END

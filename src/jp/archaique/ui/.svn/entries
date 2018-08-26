@@ -1,0 +1,34 @@
+8
+
+dir
+61
+http://subversion.assembla.com/svn/archaique/trunk/as3/jp/archaique/ui
+http://subversion.assembla.com/svn/archaique
+
+
+
+2009-07-26T19:36:03.903501Z
+52
+chiansaw398
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+movieplayer
+dir
+
+scrollbar
+dir
+

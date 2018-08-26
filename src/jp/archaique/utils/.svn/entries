@@ -1,0 +1,52 @@
+8
+
+dir
+61
+http://subversion.assembla.com/svn/archaique/trunk/as3/jp/archaique/utils
+http://subversion.assembla.com/svn/archaique
+
+
+
+2009-04-22T11:56:50.829276Z
+50
+chiansaw398
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+bitmap
+dir
+
+collection
+dir
+
+date
+dir
+
+delay
+dir
+
+display
+dir
+
+radian
+dir
+
+site
+dir
+
+string
+dir
+

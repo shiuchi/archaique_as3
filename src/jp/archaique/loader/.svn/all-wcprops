@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/archaique/!svn/ver/55/trunk/as3/jp/archaique/loader
+END
+ILoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/archaique/!svn/ver/23/trunk/as3/jp/archaique/loader/ILoader.as
+END
+ImgLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/archaique/!svn/ver/23/trunk/as3/jp/archaique/loader/ImgLoader.as
+END
+ImgLoaderCommend.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/archaique/!svn/ver/23/trunk/as3/jp/archaique/loader/ImgLoaderCommend.as
+END
+XmlLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/archaique/!svn/ver/22/trunk/as3/jp/archaique/loader/XmlLoader.as
+END
+XmlLoaderCommed.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/archaique/!svn/ver/23/trunk/as3/jp/archaique/loader/XmlLoaderCommed.as
+END

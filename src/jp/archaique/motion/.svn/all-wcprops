@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/archaique/!svn/ver/32/trunk/as3/jp/archaique/motion
+END
+FreelySequence.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/archaique/!svn/ver/31/trunk/as3/jp/archaique/motion/FreelySequence.as
+END
+TweenState.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/archaique/!svn/ver/32/trunk/as3/jp/archaique/motion/TweenState.as
+END
+AbstractParameter.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/archaique/!svn/ver/30/trunk/as3/jp/archaique/motion/AbstractParameter.as
+END
+TweenEngine.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/archaique/!svn/ver/26/trunk/as3/jp/archaique/motion/TweenEngine.as
+END
+FreelyTween.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/archaique/!svn/ver/31/trunk/as3/jp/archaique/motion/FreelyTween.as
+END
+IParameter.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/archaique/!svn/ver/25/trunk/as3/jp/archaique/motion/IParameter.as
+END
+XTO.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/archaique/!svn/ver/31/trunk/as3/jp/archaique/motion/XTO.as
+END
+ParameterManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/archaique/!svn/ver/30/trunk/as3/jp/archaique/motion/ParameterManager.as
+END

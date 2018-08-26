@@ -1,0 +1,121 @@
+package jp.archaique.transition
+{
+	import flash.display.Sprite;
+	import flash.geom.Point;
+	
+	import gs.TweenLite;
+	
+
+	public class ImgSlider extends AbstractTransition implements ITransition
+	{
+		
+		private var _mask:Sprite;
+		private var _img:Sprite;
+		private var _showType:String="";
+		
+		public function get showType():String{ return _showType; }
+		public function set showType( value:String ):void { _showType=value; }
+		
+		public function ImgSlider( target:Sprite, id:String=null, duration:Number=0.5, delay:Number=0, showType:String="L", easing:Function=null, easeParams:Array=null)
+		{
+			super( target, id, duration, delay, easing, easeParams);
+			_showType=showType;
+			_img = target.getChildByName("img") as Sprite;
+			
+			_mask=new Sprite();
+			_mask.graphics.beginFill(0xFFFFFF);
+			_mask.graphics.drawRect(0,0,_target.width, _target.height);
+			Sprite(_target).addChild(_mask);
+			_img.mask=_mask;
+			getShowPoint();
+		}
+		
+		override public function show():void
+		{
+			getShowPoint();
+			TweenLite.to( _img, _duration, {x:0, y:0, ease:_easing, onComplete:showed, easeParams:_easeParams, delay:_delay});
+			super.show();
+		}
+		
+		override public function hide():void
+		{
+			var p:Point=getHidePoint();
+			TweenLite.to( _img, _duration, {x:p.x, y:p.y, ease:_easing, onComplete:hide, easeParams:_easeParams, delay:_delay});
+			super.hide();
+		}
+		
+		override public function kill():void
+		{
+			_img=null;
+			Sprite(_target).removeChild(_mask);
+			_mask=null;
+			super.kill();
+		}
+		
+		private function getShowPoint():void
+		{
+			switch(_showType){
+				case "T":
+				{
+					_img.x=0;
+					_img.y=_img.height;
+					break;
+				}
+				case "B":
+				{
+					_img.x=0;
+					_img.y=-_img.height;
+					break;
+				}
+				case "R":
+				{
+					_img.x=-_img.width;
+					_img.y=0;
+					break;
+				}
+				case "L":
+				{
+					_img.x=_img.width;
+					_img.y=0;
+					break;
+				}
+			}
+		}
+		
+		private function getHidePoint():Point
+		{
+			var p:Point=new Point();
+			switch(_showType)
+			{
+				case "T":
+				{
+					p.x=0;
+					p.y=-_img.height;
+					break;
+				}
+				case "B":
+				{
+					p.x=0;
+					p.y=_img.height;
+					break;
+				}
+				case "R":
+				{
+					p.x=_img.width;
+					p.y=0;
+					break;
+				}
+				case "L":
+				{
+					p.x=-_img.width;
+					p.y=0;
+					break;
+				}
+			}
+			
+			return p;
+		}
+		
+		
+	}
+}
